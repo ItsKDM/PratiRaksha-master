@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:meal_monkey_partner/adminMap.dart';
+import 'package:meal_monkey_partner/adminMaps.dart';
 import 'package:meal_monkey_partner/post.dart';
 import 'package:meal_monkey_partner/services/storage.dart';
 import 'package:sms/sms.dart';
@@ -276,7 +277,7 @@ class HomeState extends State<Home> {
               trailing: new Icon(Icons.map, color: Colors.black),
               onTap: () async {
                 Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => MapPage()))
+                    .push(MaterialPageRoute(builder: (context) => Maps()))
                     .then((value) {
                   Navigator.pop(context);
                 });

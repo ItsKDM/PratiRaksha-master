@@ -6,7 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:meal_monkey_partner/Config/config.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:map_view/map_view.dart';
+// import 'package:map_view/map_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +14,7 @@ void main() async {
   EcommerceApp.auth = FirebaseAuth.instance;
   EcommerceApp.sharedPreferences = await SharedPreferences.getInstance();
   EcommerceApp.firestore = FirebaseFirestore.instance;
-  MapView.setApiKey("AIzaSyC4dTBTGG_5cn0fKK2dSV8DTiuFN63y7Aw");
+  // MapView.setApiKey("AIzaSyC4dTBTGG_5cn0fKK2dSV8DTiuFN63y7Aw");
   runApp(MyApp());
 }
 
