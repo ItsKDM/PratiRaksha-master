@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "571249723613",
+    "project_id": "toyc-bd20f",
+    "storage_bucket": "toyc-bd20f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571249723613:android:5cbace656f5a9d66897334",
+        "android_client_info": {
+          "package_name": "com.example.pratiraksha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571249723613-uvlicjhdlqci2v4f50vtks2qnrkqogqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pratiraksha",
+            "certificate_hash": "9bc8dded634d63ce7bbebc519ea9db489431ba56"
+          }
+        },
+        {
+          "client_id": "571249723613-5c0uleqrfc12akhtfah38q6t4tp7eti9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVEBYZbsvD4SvMP6acg9Kaf2lN4Vv5A5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571249723613-5c0uleqrfc12akhtfah38q6t4tp7eti9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
